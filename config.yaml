@@ -1,0 +1,13 @@
+rules:
+  groups:
+    - name: test
+      email: google-group@test.com
+      organization: Main
+      role: Admin
+  users:
+    - name: test
+      email: user@test.com
+      organization: Main
+      role: Admin
+
+mode: sync # How users are sychronized between google and grafana: sync or upsert-only
